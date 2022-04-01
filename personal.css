@@ -1,0 +1,119 @@
+html{
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #eff4fd;
+}
+nav{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: rgb(202, 99, 99);
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}   
+nav ul li a:hover{
+    color: red;
+}
+@media (max-width: 28.75em) {
+    .nav {
+      justify-content: center;
+    }
+}
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+#welcome-section p{
+    color: rgb(244, 96, 96);
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+
+}
+#welcome-section h1{
+    font-size: 5rem;
+    font-weight: 200;
+    color: white;
+}
+#projects{
+    text-align: center;
+    padding: 10rem 2rem;
+    background-color: rgb(55, 118, 97);
+}
+#projects h2{
+    font-size: 4rem;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 28.75em) {
+    .projects-section-header {
+      font-size: 4rem;
+    }
+  }
+  .projects{
+      display: grid;
+
+    }
+      
+      
+     
+     #contact{
+         background-color:rgb(53, 111, 156);
+         text-align: center;
+         margin: 0;
+         padding: 10px;
+     }
+     #contact h2{
+         font-size: 35px;
+         color: white;
+         font-weight: 200px;
+         font-family: sans-serif;
+
+     }
+     #contact p{
+         color: white;
+         font-size: 15px;
+         font-weight: 150px;
+     }
+    #contact a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+  
+#contact a:hover{
+color: red;
+}
+  
