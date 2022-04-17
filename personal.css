@@ -63,9 +63,10 @@ nav ul li a:hover{
     color: white;
 }
 #projects{
-    text-align: center;
+    align-items: center;
     padding: 10rem 2rem;
     background-color: rgb(55, 118, 97);
+    
 }
 #projects h2{
     font-size: 4rem;
@@ -73,6 +74,7 @@ nav ul li a:hover{
     font-family: sans-serif;
     color: white;
     text-align: center;
+    
 }
 
 @media (max-width: 28.75em) {
@@ -81,7 +83,8 @@ nav ul li a:hover{
     }
   }
   .projects{
-      display: grid;
+      display: flex;
+      
 
     }
       
